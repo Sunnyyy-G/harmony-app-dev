@@ -15,13 +15,14 @@ struct NewsCase {
     Column() {
       //头部
       Row({ space: 5 }) {
-        Image($r('app.media.163_logo'))
-          .width(40);
+        Image($r('app.media.img_1'))
+          .width(100);
         Search({ placeholder: '输入查询内容' })
           .height(35)
           .layoutWeight(1)
-          .backgroundColor(Color.White)
+          .backgroundColor('#eee')
           .placeholderColor(Color.Gray)
+          .margin({left: 10})
 
         Button() {
           Image($r('app.media.ic_public_contacts'))
@@ -34,8 +35,10 @@ struct NewsCase {
         .padding(5)
 
       }.padding(5)
-      .backgroundColor(Color.Red)
+      .backgroundColor(Color.White)
       .width('100%')
+      .shadow({ radius: 10, color: 'rgba(0, 0, 0, .2)', offsetX: 2, offsetY: 0 })
+      .zIndex(99)
 
       //Swiper 滑块视图容器，提供子组件滑动轮播显示的能力
       Swiper(this.swiperController) {

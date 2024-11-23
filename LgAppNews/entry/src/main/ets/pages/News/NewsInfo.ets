@@ -50,23 +50,23 @@ let bannerInfo: Array<IBanner> =
   [
     {
       id: 1,
-      image: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2024%2F1111%2Ff2ce8a41j00sms36n002ac000s600e3c.jpg&thumbnail=750x330&quality=75&type=webp',
-      alt: '实时更新丨沙利文：拜登劝特朗普别放弃乌克兰'
+      image: 'https://www-file.huawei.com/-/media/corporate/images/news4/2024/q4/241023-1.jpg',
+      alt: 'HarmonyOS NEXT正式发布，开启更多机型公测'
     } as IBanner,
     {
       id: 2,
-      image: 'https://nimg.ws.126.net/?url=https%3A%2F%2Fyt-adp.ws.126.net%2Fstpan%2F750370_abks_20241101.png&thumbnail=750x330&quality=75&type=webp',
-      alt: '广告：A类可机洗被子'
+      image: 'https://www-file.huawei.com/-/media/corporate/images/news4/2024/q4/241010-1.jpg',
+      alt: '泰国AIS携手华为启动“智网慧城”计划，加速迈进L4自智网络'
     } as IBanner
   ]
 
 let newsInfo: Array<INews> = [
   new INews(
-    '日本加强与欧洲军事互动 专家：仍不放弃“亚洲版北约”构想',
+    '北京联通联合华为发布全球首个5G-A规模立体智慧网',
     '国际在线',
     '2024-11-03 19:23',
     '北京',
-    'https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F1102%2F4e32d92ej00smbynp00f0d000u000g8p.jpg&thumbnail=230x2147483647&quality=75&type=webp',
+    'https://www.huawei.com/cn/news//www-file.huawei.com/-/media/corporate/images/news4/2024/q4/241120-3.jpg',
     2,
     `下周美国大选对于黄金走势很关键，图为黄金饰品（资料图）本周，国际黄金金价波动剧烈，纽约期货金价一度站上2800美元/盎司的历史新高，随后回落。
       波动原因是什么？短期资金在获利回吐，净多头寸下降或是主要原因。根据美国商品期货交易委员会（CFTC）的数据，在黄金、白银、铜等品种上，净多头寸均出现下降。但是长期资金仍在保持流入，国际黄金ETF连续5个月实现净流入，而中国黄金ETF总持仓已经突破100吨。
@@ -77,11 +77,11 @@ let newsInfo: Array<INews> = [
      下周美国大选对于黄金走势很关键，图为黄金饰品（资料图）本周，国际黄金金价波动剧烈，纽约期货金价一度站上2800美元/盎司的历史新高，随后回落。`
   ),
   new INews(
-    '梅德韦杰夫对美喊话：要想避免“三战”，就别犯错',
+    '共建数智非洲：华为参展AfricaCom 2024',
     '参考消息',
     '2024-11-03 13:46',
     '北京',
-    'https://nimg.ws.126.net/?url=http%3A%2F%2Fcms-bucket.ws.126.net%2F2024%2F1103%2Fc67739e5p00smcj2k001kc0009c0070c.png&thumbnail=230x2147483647&quality=75&type=webp',
+    'https://www-file.huawei.com/-/media/corporate/images/news4/2024/q4/241114-5.jpg',
     14000,
     ` 下周美国大选对于黄金走势很关键，图为黄金饰品（资料图）本周，国际黄金金价波动剧烈，纽约期货金价一度站上2800美元/盎司的历史新高，随后回落。
       波动原因是什么？短期资金在获利回吐，净多头寸下降或是主要原因。根据美国商品
