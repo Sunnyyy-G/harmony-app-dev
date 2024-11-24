@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/techlogin/StartupPage",
+    "pages/techlogin/TechHome",
+    "pages/techlogin/login/LoginPage",
+    "pages/techlogin/login/SignInPage"
+  ]
+}
