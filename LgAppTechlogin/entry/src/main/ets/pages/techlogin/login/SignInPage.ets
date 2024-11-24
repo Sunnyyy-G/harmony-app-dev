@@ -28,7 +28,7 @@ struct SignInPage {
       .margin({ bottom: 50 })
       .width('90%')
       .height(50)
-      .backgroundColor('#ffe9730c')
+      .backgroundColor('#ff2c2f3b')
       .onClick(() => {
         if (!mUserName || mUserName.trim().length == 0 || !mUserPwd || mUserPwd.trim().length == 0 || !mUserAgainPwd ||
           mUserAgainPwd.trim().length == 0) {
@@ -46,7 +46,7 @@ struct SignInPage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#ffe3cdcd')
+    .backgroundColor('#ffea553c')
   }
 }
 
@@ -66,6 +66,7 @@ struct pageTitle {
         })
       Text('注册页面')
         .logInTextSty(26, FontWeight.Bold, Color.Black)
+        .fontColor('#ff2c2f3b')
     }
     .width('100%')
     .margin({ top: 15 })

@@ -20,16 +20,17 @@ struct LoginPage {
       Text('欢迎来到泰克教育')
         .fontSize(30)
         .fontWeight(FontWeight.Bold)
+        .fontColor('#ff2c2f3b')
       LoginInput()
       Blank()
       Button() {
-        Text('登入')
+        Text('登录')
           .logInTextSty(30, FontWeight.Bold, Color.White)
       }
       .margin({ bottom: 50 })
       .width('90%')
       .height(50)
-      .backgroundColor('#ffe9730c')
+      .backgroundColor('#ff2c2f3b')
       .onClick(() => {
         if (!mUserName || mUserName.trim().length == 0 || !mUserPwd || mUserPwd.trim().length == 0) {
           promptAction.showToast({ message: '用户名或密码不能为空或有空格' })
@@ -46,18 +47,18 @@ struct LoginPage {
             return
           }
           console.log('跳转成功');
-          promptAction.showToast({ message: '登入成功' })
+          promptAction.showToast({ message: '登录成功' })
         })
       })
 
     }
     .width('100%')
     .height('100%')
-    .backgroundColor('#ffe3cdcd')
+    .backgroundColor('#ffea553c')
   }
 }
 
-//登入注册输入框
+//登录注册输入框
 @Component
 struct LoginInput {
   build() {
@@ -74,10 +75,11 @@ struct LoginInput {
           mUserPwd = value
         })
       Text('注册')
-        .logInTextSty(12, FontWeight.Normal, Color.Blue)
+        .logInTextSty(12, FontWeight.Normal, Color.White)
         .textAlign(TextAlign.End)
         .width('100%')
         .margin({ right: 50 })
+        .decoration({ type: TextDecorationType.Underline, color: Color.Black }).decoration({ type: TextDecorationType.Underline, color: Color.White })
         .onClick(() => {
           router.pushUrl({
             url: "pages/techlogin/login/SignInPage"
